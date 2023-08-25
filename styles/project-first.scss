@@ -1,0 +1,127 @@
+[class*="_container"]{
+    max-width: 1740px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header{
+    background: #363636;
+    
+    .header_container{
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: #FFF;
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            ul{
+                align-items: center;
+                display: flex;
+                gap: 0 85px;
+                li{
+                    a{
+                        color: #FFF;
+                        font-size: 26px;    
+                    }
+                }
+            }
+        }
+    }
+}
+
+.project-about {
+    .project-about_container {
+        h1{
+            margin: 45px 0 100px 0;
+            color: #000;
+            font-size: 46px;
+            font-weight: 600;
+        }
+        .project-about-body{
+            h2{
+                color: #FF5F00;
+                font-size: 36px;
+                font-weight: 600;
+                margin-bottom: 40px;
+            }
+            ul{
+                display: flex;
+                li{
+                    p{
+                        max-width: 1035px;
+                        color: #5C5C5C;
+                        font-size: 22px;
+                        margin-bottom: 15px;
+                    }
+                    img{
+                        max-width: 500px;
+                        max-height: 679px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    padding: 83px 0 80px 0;
+    background: #F2F2F2;
+    .footer_container{
+        
+        .footer-all{
+            display: flex;
+            gap: 0 130px;
+        }
+        .footer-item-all{
+            display: flex;
+            justify-content: space-between;
+            gap: 0 150px ;
+            margin-bottom: 130px;
+            ul{
+                h5{
+                    margin-bottom: 9px;
+                    font-weight: 600;
+                }
+                a{
+                    color: #0A0A0A;
+                }
+            }
+            .footer-contact{
+                display: flex;
+                flex-direction: column;
+                li{
+                    &:nth-child(2) {
+                        margin-bottom: 9px;
+                    }
+                }
+            }
+
+        }
+
+    }
+    .footer-copyright{
+        text-align: center;
+        position: relative;
+    }
+    .footer-copyright::before{
+        content: "";
+        position: absolute;
+        top: -44px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 84%;
+        height: 2px;
+        background-color: black;
+    }
+
+}
