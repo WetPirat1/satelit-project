@@ -1,0 +1,444 @@
+// 4k
+@media (min-width: 3839px){
+
+    [class*="_container"]{
+        min-width: 2200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .header{
+        padding: 50px 0;
+            .header_container{
+                a{
+                    font-size: 50px;
+                }
+                .nav{
+                    ul{
+                        li{
+                            a{
+                                font-size: 45px;
+                            }
+                        }
+                    }
+                }
+        }
+    }
+
+    .hero-section{
+        .hero-section_container{
+            h1{
+                font-size: 84px;
+            }
+            p{
+                font-size: 45px;
+                line-height: 60px;
+            }
+            .hero-btn{
+                padding: 51px 141px;
+                font-size: 50px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .mission-section{
+        padding: 150px 0;
+        .mission-section_container{
+            h2{
+                padding-top: 160px;
+                font-size: 80px;
+            }
+            .mission-all{
+                .mission-left{
+                    h4{
+                        font-size: 60px;
+                    }
+                    p{
+                        font-size: 50px;
+                    }
+                }
+                .mission-right{
+                    display: flex;
+                    align-items: first baseline;
+                    .mission-img1{
+                        background-size: cover;
+                        min-width: 700px;
+                        min-height: 600px;
+                    }
+    
+                    .mission-img2{
+                        min-width: 400px;
+                        min-height: 500px;
+                    }
+            
+                }
+            }
+        }
+        }
+
+    .projects-section{
+        padding: 100px 0;
+        .projects-section_container{
+            h2{
+                font-size: 80px;
+            }
+            .projects-all{
+                ul{
+                    li{
+                        img{
+                            min-width: 900px;
+                            min-height: 700px;
+                        }
+                        h4{
+                            font-size: 60px;
+                            padding-bottom: 35px;
+                        }
+                        p{
+                            font-size: 60px;
+                            min-width: 752px;
+                            padding-bottom: 170px;
+                        }
+                    }
+                }
+            }
+            .projects-link{
+                padding: 50px 120px;
+                font-size: 50px;
+            }
+        }
+    }
+
+    .donate-section{
+        .donate-section_container{
+            h2{
+                font-size: 100px;
+            }
+            .donate-all{
+                .donate-left{
+                    height: 100%;
+                }
+                .donate-right{
+                    h3{
+                        font-size: 80px;
+                    }
+                    p{
+                        font-size: 60px;
+                    }
+                    a{
+                        font-size: 60px;
+                        padding: 30px 90px;
+                    }
+                }
+            }
+        }
+    }
+
+    .team-section{
+        .team-section_container{
+            h2{
+                font-size: 94px;
+            }
+            .team-all{
+                ul{
+                    img{
+                        margin-bottom: 40px;
+                    }
+                    p{
+                        font-size: 50px;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .blog-section{
+        .blog-section_container{
+            h2{
+                font-size: 90px;
+            }
+            .blog-all{
+                ul{
+                    max-width: 33.3%;
+
+                    li{
+                        a{
+                            p{
+                                font-size: 50px;
+                                margin-bottom: 70px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            .blog-link{
+                padding: 50px 120px;
+                font-size: 40px;
+            }
+        }
+    }
+
+    .footer{
+        .footer_container{
+            .footer-all{
+                h4{
+                    font-size: 40px;
+                }
+                ul{
+                    ul{
+                        li{
+                            h5{
+                                font-size: 40px;
+                            }
+                            a{
+                                font-size: 35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+
+// for 2k looks like OK
+
+// FullHd ok
+
+// 	1680 × 1050 ok
+
+// 1600
+@media (max-width: 1600px){
+    .blog-section{
+        .blog-section_container{
+            .blog-all{
+                ul{
+                    
+                    li{
+                        img{
+                            max-width: 80%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .footer_container{
+            .footer-all{
+                .footer-item-all{
+                    gap: 0 100px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1600px){
+    .footer{
+        .footer_container{
+            .footer-all{
+                gap: 0 100px;
+                .footer-item-all{
+                    gap: 0 100px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1600px){
+    .projects-section{
+        .projects-section_container{
+            .projects-all{
+                ul{
+                    li{
+                        max-width: 50%;
+                        img{
+                            max-width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .footer_container{
+            .footer-all{
+                gap: 0 70px;
+                .footer-item-all{
+                    gap: 0 70px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px){
+    .header {
+        .header_container {
+            padding: 15px 30px;
+            .logo {
+                font-size: 20px;
+            }
+            .nav {
+                ul{
+                        .nav-item {
+                                a{
+                                    font-size: 20px;
+                                }
+                                img{
+                                    max-width: auto;
+                                    max-height: 30px;
+                                }
+                        }
+                }
+            }
+        }
+    }
+
+    .hero-section{
+        .hero-section_container{
+            h1{
+                padding: 120px 0 50px 0;
+                font-size: 45px;
+            }
+            p{
+                margin-bottom: 50px;
+                font-size: 25px;    
+                max-width: 1000px;
+            }
+            .hero-btn{
+                margin-bottom: 100px;
+                padding: 20px 50px;
+            }
+
+        }
+    }
+
+    .mission-section{
+        .mission-section_container {
+            h2{
+                font-size: 50px;   
+                padding: 100px 0 90px 0;
+            }
+            .mission-all {
+                padding-bottom: 130px;
+                .mission-right {
+                    .mission-img1 {
+                        max-width: 360px;
+                        max-height: 300px;
+                    }
+                    .mission-img2 {
+                        max-width: 200px;
+                        max-height: 280px;
+                    }
+                }
+            }
+        }
+    }
+
+    .projects-section{
+        .projects-section_container{
+            h2{
+                font-size: 50px;
+            }
+        }
+    }
+
+    .donate-section{
+        .donate-section_container{
+            h2{
+                font-size: 50px;
+            }
+            .donate-all{
+                .donate-left{
+                    margin-right: -62px;
+                    img{
+                        max-width: 80%;
+                    }
+                }
+                .donate-right{
+                    h3{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 26px;
+                    }
+                    .donate-btn{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .team-section{
+        .team-section_container{
+            h2{
+                font-size: 50px;
+                margin: 60px 0 100px 80px;
+            }
+            .team-all{
+                ul{
+                    img{
+                        max-width: 80%;
+                    }
+                    p{
+                        font-size: 20px;
+                        padding-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-section{
+        .blog-section_container{
+            h2{
+                font-size: 50px;
+            }
+            .blog-all{
+                ul{
+                    li{
+                        p{
+                            margin-top: 20px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .blog-link{
+                padding: 15px 45px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .footer{
+        .footer_container{
+            .footer-all{
+                .footer-item-all{
+                    ul{
+                        h5{
+                            font-size: 25px;
+                        }
+                        a{
+                            font-size: 20px;
+                        }
+                    }
+                    .footer-contact{
+                        li{
+                            &:nth-child(2) {
+                                margin-bottom: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
