@@ -153,7 +153,7 @@
   border-width: 2px;
   border-style: solid;
   -o-border-image: linear-gradient(90.17deg, #FBC101 3.6%, #81CA8F 28.88%, #A2DDEF 63.27%, #5720FC 98.09%);
-  border-image: linear-gradient(90.17deg, #FBC101 3.6%, #81CA8F 28.88%, #A2DDEF 63.27%, #5720FC 98.09%);
+     border-image: linear-gradient(90.17deg, #FBC101 3.6%, #81CA8F 28.88%, #A2DDEF 63.27%, #5720FC 98.09%);
   border-image-slice: 1;
   background: linear-gradient(180deg, rgba(255, 95, 0, 0) 0%, rgba(255, 95, 0, 0) 100%);
 }
