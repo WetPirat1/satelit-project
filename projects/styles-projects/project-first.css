@@ -1,0 +1,106 @@
+[class*=_container] {
+  max-width: 1740px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.header {
+  background: #363636;
+}
+.header .header_container {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_container a {
+  color: #FFF;
+}
+.header .header_container .nav {
+  display: flex;
+  align-items: center;
+}
+.header .header_container .nav ul {
+  align-items: center;
+  display: flex;
+  gap: 0 85px;
+}
+.header .header_container .nav ul li a {
+  color: #FFF;
+  font-size: 26px;
+}
+
+.project-about .project-about_container h1 {
+  margin: 45px 0 100px 0;
+  color: #000;
+  font-size: 46px;
+  font-weight: 600;
+}
+.project-about .project-about_container .project-about-body h2 {
+  color: #FF5F00;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.project-about .project-about_container .project-about-body ul {
+  display: flex;
+}
+.project-about .project-about_container .project-about-body ul li p {
+  max-width: 1035px;
+  color: #5C5C5C;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.project-about .project-about_container .project-about-body ul li img {
+  max-width: 500px;
+  max-height: 679px;
+}
+
+.footer {
+  padding: 83px 0 80px 0;
+  background: #F2F2F2;
+}
+.footer .footer_container .footer-all {
+  display: flex;
+  gap: 0 130px;
+}
+.footer .footer_container .footer-item-all {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 150px;
+  margin-bottom: 130px;
+}
+.footer .footer_container .footer-item-all ul h5 {
+  margin-bottom: 9px;
+  font-weight: 600;
+}
+.footer .footer_container .footer-item-all ul a {
+  color: #0A0A0A;
+}
+.footer .footer_container .footer-item-all .footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer_container .footer-item-all .footer-contact li:nth-child(2) {
+  margin-bottom: 9px;
+}
+.footer .footer-copyright {
+  text-align: center;
+  position: relative;
+}
+.footer .footer-copyright::before {
+  content: "";
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 84%;
+  height: 2px;
+  background-color: black;
+}/*# sourceMappingURL=project-first.css.map */
