@@ -1,0 +1,144 @@
+[class*=_container] {
+  max-width: 1740px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.header {
+  background: #363636;
+}
+.header .header_container {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_container a {
+  color: #ffffff;
+}
+.header .header_container nav {
+  display: flex;
+  align-items: center;
+}
+.header .header_container nav ul {
+  align-items: center;
+  display: flex;
+  gap: 85px;
+}
+.header .header_container nav li .active {
+  color: #999;
+}
+.header .header_container nav li a {
+  color: #FFF;
+  font-size: 26px;
+}
+
+.footer {
+  padding: 83px 0 80px 0;
+  background: #F2F2F2;
+}
+.footer .footer_container .footer-all {
+  display: flex;
+  gap: 0 130px;
+}
+.footer .footer_container .footer-item-all {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 150px;
+  margin-bottom: 130px;
+}
+.footer .footer_container .footer-item-all ul h5 {
+  margin-bottom: 9px;
+  font-weight: 600;
+}
+.footer .footer_container .footer-item-all ul a {
+  color: #0A0A0A;
+}
+.footer .footer_container .footer-item-all .footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer_container .footer-item-all .footer-contact li:nth-child(2) {
+  margin-bottom: 9px;
+}
+.footer .footer-copyright {
+  text-align: center;
+  position: relative;
+}
+.footer .footer-copyright::before {
+  content: "";
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 84%;
+  height: 2px;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 25px 0 25px;
+  margin: 0 auto;
+}
+
+.article-headline {
+  background-image: url(/blog/articles/article-5/images/article-bg.jpg);
+  padding: 162px 0;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.article-headline h1 {
+  font-size: 64px;
+  color: #FF5F00;
+  text-align: center;
+}
+
+.quest-title {
+  color: #0A0A0A;
+  font-size: 46px;
+  font-weight: 600;
+  text-align: start;
+  line-height: 56.07px;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+section h2 {
+  color: #FF5F00;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+section h3 {
+  color: #FF5F00;
+  font-size: 32px;
+  font-weight: 600;
+}
+section p {
+  color: #5C5C5C;
+  font-size: 22px;
+  margin-bottom: 3em;
+  margin-top: 1.8em;
+  font-weight: 500;
+  line-height: 26.82px;
+}
+section span {
+  font-size: 22px;
+  color: #FF5F00;
+  font-weight: 700;
+}
+
+.arcicle-screenresolution {
+  margin-bottom: 90px;
+}/*# sourceMappingURL=article-1.css.map */

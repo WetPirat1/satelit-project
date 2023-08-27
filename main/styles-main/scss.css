@@ -14,7 +14,7 @@
   background: #363636;
 }
 .header .header_container {
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -166,7 +166,7 @@
 }
 
 .donate-section {
-  background-image: url(/main/images/donate-bg.jpg);
+  background-image: url(/main/images/111.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 180px;
