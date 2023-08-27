@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="/main/styles-main/scss.css">
     <link rel="stylesheet" href="/main/styles-main/sccs-adaptive-styles.css">
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     
@@ -21,13 +22,13 @@
             <a href="#" class="logo">LOGO</a>
             <nav class="nav">
                 <ul>
-                    <li class="nav-item"><a href="">Головна</a></li>
-                    <li class="nav-item"><a href="Блог">Проєкти</a></li>
-                    <li class="nav-item"><a href="">Блог</a></li>
-                    <li class="nav-item"><a href="">Контакти</a></li>
-                    <li class="nav-item"><a href=""><img src="/main/images/nav-img.svg" alt="magnifier"></a></li>
-                    <li class="nav-item"><a href="">ukr</a></li>
-                    <li class="nav-item"><a href="">eng</a></li>
+                    <li class="nav-item"><a class="active" href="#">Головна</a></li>
+                    <li class="nav-item"><a href="/projects/projects.html">Проєкти</a></li>
+                    <li class="nav-item"><a href="/blog/blog.html">Блог</a></li>
+                    <li class="nav-item"><a href="#">Контакти</a></li>
+                    <li class="nav-item"><a href="#"><img src="/main/images/nav-img.svg" alt="magnifier"></a></li>
+                    <li class="nav-item"><a href="#">ukr</a></li>
+                    <li class="nav-item"><a href="#">eng</a></li>
                 </ul>
             </nav>
         </div>
@@ -64,12 +65,10 @@
         <div class="projects-section_container">
             <h2>Проєкти</h2>
 
-            <div class="projects-all">
-                    <ul>
-                        <li><img src="/main/images/project-img1.jpg" alt=""><h4>Проєкт 1</h4><p>Надання необхідного оснащення для психологічної служби Національної гвардії України</p></li>
-                        <li><img src="/main/images/project-img2.jpg" alt=""><h4>Зелена кімната</h4><p>Придбання і передача спеціалізованої апаратури для відділку ювенальної поліції Черкаської області</p></li>
-                    </ul>
-            </div>
+            <ul>
+                <li><a href="/projects/project-first.html"><img src="/main/images/project-img1.jpg" alt=""><h4>Проєкт 1</h4><p>Надання необхідного оснащення для <br> психологічної служби Національної гвардії <br> України</p></a></li>
+                <li><a href="/projects/project-second.html"><img src="/main/images/project-img2.jpg" alt=""><h4>Зелена кімната</h4><p>Придбання і передача спеціалізованої <br> апаратури для відділку ювенальної поліції <br> Черкаської області</p></li>
+            </ul>
             
             <a class="projects-link" href="/projects/projects.html">Ознайомитися</a>
         </div>
@@ -102,28 +101,23 @@
         <div class="team-section_container">
 
             <h2>Команда</h2>
-
-            <div class="team-all">
+            
                 <ul>
                     <li>
                         <img src="/main/images/team-img1.png" alt="">
-                        <p>Дмитро Тен</p>
+                        <h3>Дмитро Тен</h3>
                         <p>Президент<br>засновник</p>
                     </li>
-                </ul>
-    
-                <ul>
+
                     <li>
                         <img src="/main/images/team-img2.png" alt="">
-                        <p>Олександр Тен</p>
+                        <h3>Олександр Тен</h3>
                         <p>Засновник</p>
                     </li>
-                </ul>
-    
-                <ul>
+
                     <li>
                         <img src="/main/images/team-img3.png" alt="">
-                        <p>Олена Фесенко</p>
+                        <h3>Олена Фесенко</h3>
                         <p>Головний<br> контент-менджер</p>
                     </li>
                 </ul>
@@ -135,35 +129,35 @@
     <section class="blog-section">
         <div class="blog-section_container">
             <h2>Блог</h2>
-            <div class="blog-all">
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="/main/images/blog-img1.jpg" alt="">
-                            <p>Смарт-ТВ: універсальний засіб для розваг та освіти</p>
-                        </a>
-                    </li>
-                </ul>
-    
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="/main/images/blog-img2.jpg" alt="">
-                            <p>Ергономіка життєвого простору: надійність та зручність настінних кріплень для телевізорів</p>
-                        </a>
-                    </li>
-                </ul>
-    
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="/main/images/blog-img3.jpg" alt="">
-                            <p>Техніка для ЗОЖ - мультиварки: здорове харчування, зручність та натхнення</p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <a class="blog-link" href="#">Читати більше</a>
+                <div class="blog-all">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="/main/images/blog-img1.jpg" alt="">
+                                <p>Смарт-ТВ: універсальний засіб для розваг та освіти</p>
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="/main/images/blog-img2.jpg" alt="">
+                                <p>Ергономіка життєвого простору: надійність та зручність настінних кріплень для телевізорів</p>
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="/main/images/blog-img3.jpg" alt="">
+                                <p>Техніка для ЗОЖ - мультиварки: здорове харчування, зручність та натхнення</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            <a class="blog-link" href="/blog/blog.html">Читати більше</a>
         </div>
     </section>
 
@@ -172,7 +166,7 @@
 
             <div class="footer-all">
                 <img class="footer-logo" src="" alt="">
-                <h4>SLOGAN COMPANY</h4>
+                <h4>LOGO<br>SLOGAN COMPANY</h4>
     
                     <ul class="footer-item-all">
                         <ul>

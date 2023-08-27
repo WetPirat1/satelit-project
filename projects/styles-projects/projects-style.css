@@ -7,7 +7,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .header {
@@ -18,7 +18,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1600px;
 }
 .header .header_container a {
   color: #FFF;
@@ -31,6 +30,9 @@
   align-items: center;
   display: flex;
   gap: 0 85px;
+}
+.header .header_container .nav ul li .active {
+  color: #999999;
 }
 .header .header_container .nav ul li a {
   color: #FFF;
@@ -74,11 +76,14 @@
   border-image-slice: 1;
   background: linear-gradient(180deg, rgba(255, 95, 0, 0) 0%, rgba(255, 95, 0, 0) 100%);
 }
-.projects-section .projects_container .project-first img, .projects-section .projects_container .project-second img {
+.projects-section .projects_container .project-first ul .projects-link:hover, .projects-section .projects_container .project-second ul .projects-link:hover {
+  border-width: 3px;
+}
+.projects-section .projects_container img {
   margin-bottom: 80px;
   max-height: 386px;
 }
-.projects-section .projects_container div::before {
+.projects-section div::before {
   content: "";
   position: absolute;
   top: -39px;
@@ -120,6 +125,7 @@
 .footer .footer-copyright {
   text-align: center;
   position: relative;
+  font-size: 20px;
 }
 .footer .footer-copyright::before {
   content: "";

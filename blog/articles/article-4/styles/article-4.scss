@@ -29,6 +29,9 @@
                 display: flex;
                 gap: 0 85px;
                 li{
+                    .active {
+                        color: #999;
+                    }
                     a{
                         color: #FFF;
                         font-size: 26px;    

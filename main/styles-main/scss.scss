@@ -7,7 +7,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .header{
     background: #363636;
@@ -27,11 +27,17 @@
                 align-items: center;
                 display: flex;
                 gap: 0 85px;
+                
                 li{
+                    .active {
+                        color: #999999;
+                    } 
                     a{
                         color: #FFF;
-                        font-size: 26px;    
+                        font-size: 26px; 
+
                     }
+
                 }
             }
         }
@@ -41,6 +47,7 @@
 .hero-section{
     background-image: url(/main/images/hero-bg.jpg);
     background-size: cover;
+    background-position: center;
     .hero-section_container{
         text-align: center;
         align-items: center;
@@ -55,6 +62,7 @@
         p{
             color: #FFF;
             font-size: 32px;
+            font-weight: 400;
             margin-bottom: 94px;
             max-width: 1555px;
         }
@@ -64,6 +72,11 @@
             background-color: #FF5F00;
             color: #fff;
             border-radius: 10px;
+            transition-duration: 0.3s;
+        }
+        .hero-btn:hover {
+            background-color: #1cc0c6;
+            color: #ffffff;
         }
     }
 }
@@ -115,60 +128,66 @@
 .projects-section{
     margin-bottom: 140px;
     .projects-section_container{
+        
         text-align: center;
         align-items: center;
+
         h2{
             color: #000;
             font-size: 64px;
             font-weight: 600;
             margin: 90px 0 100px 0;
         }
-        .projects-all{
 
-            ul{
-                display: flex;
-                justify-content: space-between;
-                li{
-                    align-items: center;
-                    display: flex;
-                    flex-direction: column;
-                    img{
-                        max-width: 650px;
-                        max-height: 523px;
-                        padding-bottom: 26px;
-                    }
-                    h4{
-                        color: #FF5F00;
-                        font-size: 30px;
-                        font-weight: 600;
-                        padding-bottom: 27px;
-                    }
-                    p{
-                        color: #5C5C5C;
-                        font-size: 30px;
-                        font-weight: 500;
-                        padding-bottom: 53px;
-                        max-width: 752px;
-                    }
-                }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5em;
+        }
+        li{
+            img{
+                max-width: 650px;
+                max-height: 523px;
+                padding-bottom: 26px;
+            }
+            h4{
+                color: #FF5F00;
+                font-size: 30px;
+                font-weight: 600;
+            }
+            p{
+                color: #5C5C5C;
+                font-size: 30px;
+                font-weight: 500;
+                margin-top: 27px;
+                padding-bottom: 53px;
+                max-width: 752px;
             }
         }
+        }   
         .projects-link{
+            
             color: #282828;
             border-radius: 5px;
             padding: 20px 60px;
             border-width: 2px;
             border-style: solid;
+
             border-image: linear-gradient(90.17deg, #FBC101 3.6%, #81CA8F 28.88%, #A2DDEF 63.27%, #5720FC 98.09%);
             border-image-slice: 1;
             background: linear-gradient(180deg, rgba(255, 95, 0, 0) 0%, rgba(255, 95, 0, 0) 100%);
         }
-    }
-}   
+        .projects-link:hover {
+            border-width: 4px;
+            
+        }
+    }   
+
 
 .donate-section{
     background-image: url(/main/images/donate-bg.jpg);
     background-size: cover;
+    background-position: center;
     padding-bottom: 180px;
     background-repeat: no-repeat;
     .donate-section_container{
@@ -221,36 +240,44 @@
 
 .team-section{
     .team-section_container{
-        
+        max-width: 1700px;
         h2{
+            margin-top: 1em;
             text-align: center;
             color: #0A0A0A;
             font-size: 64px;
             font-weight: 600;
-            margin: 90px 0 121px 80px;
+            // margssin: 90px 0 121px 80px;
         }
 
-        .team-all{
-            display: flex;
-            text-align: center;
-            justify-content: space-between;
             ul{
-                img{
-                    margin-bottom: 34px;
-                }
-                p{
-                    padding-bottom: 27px;
+                display: flex;
+                padding-top: 3em;
+                text-align: center;
+                margin: 0 auto;
+                justify-content: center;
+                gap: 10em;
+                li{
+                    align-items: center;
+                    width: 250px;
+                    img{
+                        margin-bottom: 34px;               }
+                    p{
+                        margin-top: 10px;
+                        margin-bottom: 27px;
+                        font-size: 22px;
+                    }
                 }
             }
         }
 
     }
-}
+
 
 .blog-section{
-    text-align: center;
     margin-bottom: 137px;
     .blog-section_container{
+        text-align: center;
         h2{
             text-align: center;
             color: #000;
@@ -260,12 +287,17 @@
         }
         .blog-all{
             display: flex;
-            justify-content: space-between;
+
             margin-bottom: 66px;
+            
             ul{
+                justify-content: space-between;
                 text-align: center;
                 max-width: 33.3%;
                 li{
+                    h3 {
+                        font-size: 35px;
+                    }
                     p{
                         color: #FF5F00;
                         text-align: center;
@@ -287,7 +319,9 @@
             border-image: linear-gradient(90.17deg, #FBC101 3.6%, #81CA8F 28.88%, #A2DDEF 63.27%, #5720FC 98.09%);
             border-image-slice: 1;
             background: linear-gradient(180deg, rgba(255, 95, 0, 0) 0%, rgba(255, 95, 0, 0) 100%);
-            
+        }
+        .blog-link:hover {
+            border-width: 4px;
         }
     }
 }
@@ -330,6 +364,7 @@
     }
     .footer-copyright{
         text-align: center;
+        font-size: 20px;
         position: relative;
     }
     .footer-copyright::before{

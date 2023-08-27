@@ -7,7 +7,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .header{
     background: #363636;
@@ -28,6 +28,9 @@
                 display: flex;
                 gap: 0 85px;
                 li{
+                    .active {
+                        color: #999999;
+                    }
                     a{
                         color: #FFF;
                         font-size: 26px;    
@@ -75,6 +78,10 @@
                     border-image-slice: 1;
                     background: linear-gradient(180deg, rgba(255, 95, 0, 0) 0%, rgba(255, 95, 0, 0) 100%);
                 }
+                .projects-link:hover {
+                    border-width: 3px;    
+                }
+            }   
             }
             img{
                 margin-bottom: 80px;
@@ -94,7 +101,6 @@
 
     }
 
-}
 
 .footer{
     padding: 83px 0 80px 0;
@@ -135,6 +141,7 @@
     .footer-copyright{
         text-align: center;
         position: relative;
+        font-size: 20px;
     }
     .footer-copyright::before{
         content: "";

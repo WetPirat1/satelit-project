@@ -14,26 +14,32 @@
     background: #363636;
     
     .header_container{
+
         padding: 20px 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         a{
-            color: #FFF;
+            color: #ffffff;
         }
-        .nav{
+        nav{
             display: flex;
             align-items: center;
             ul{
                 align-items: center;
                 display: flex;
-                gap: 0 85px;
+                gap: 85px;
+                }
                 li{
+                    .active {
+                        color: #999;
+                    }
                     a{
                         color: #FFF;
-                        font-size: 26px;    
-                    }
+                        font-size: 26px;
                 }
+                
+                
             }
         }
     }
@@ -92,10 +98,16 @@
 
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .article-headline{
     background-image: url(/blog/articles/article-5/images/article-bg.jpg);
     padding: 162px 0;
     background-size: cover;
+    background-position: center;
     margin-bottom: 20px;
     h1{
         font-size: 64px;
