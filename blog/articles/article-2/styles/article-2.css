@@ -30,7 +30,7 @@
   display: flex;
   gap: 0 85px;
 }
-.header .header_container .nav ul li .active {
+.header .header_container .nav ul li .active-blog {
   color: #999999;
 }
 .header .header_container .nav ul li a {

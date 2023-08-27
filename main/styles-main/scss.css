@@ -36,6 +36,10 @@
 .header .header_container .nav ul li a {
   color: #FFF;
   font-size: 20px;
+  transition: ease-in-out 0.3s;
+}
+.header .header_container .nav ul li a:hover {
+  color: #999999;
 }
 
 .hero-section {
@@ -210,6 +214,11 @@
 }
 .donate-section .donate-section_container .donate-all .donate-right .donate-btn {
   margin-bottom: 20px;
+  transition-duration: 0.3s;
+}
+.donate-section .donate-section_container .donate-all .donate-right .donate-btn a:hover {
+  background-color: #1cc0c6;
+  color: #ffffff;
 }
 .donate-section .donate-section_container .donate-all .donate-right a {
   color: #fff;
@@ -218,6 +227,7 @@
   padding: 15px 60px;
   border-radius: 10px;
   background: #FF5F00;
+  transition-duration: 0.3s;
 }
 
 .team-section .team-section_container {
