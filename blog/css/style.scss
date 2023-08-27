@@ -32,8 +32,11 @@
             ul{
                 display: flex;
                 gap: 0 85px;
+                .nav-item-ukr{
+                    color: #999999;
+                }
                 li{
-                    .active {
+                    .active-blog {
                         color: #999999;
                     } 
                     a{
