@@ -14,32 +14,30 @@
     background: #363636;
     
     .header_container{
-
-        padding: 20px 20px;
+        padding: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 1400px;
         a{
-            color: #ffffff;
+            color: #FFF;
         }
-        nav{
+        .nav{
             display: flex;
-            align-items: center;
             ul{
-                align-items: center;
                 display: flex;
-                gap: 85px;
-                }
+                gap: 0 85px;
                 li{
                     .active {
-                        color: #999;
-                    }
+                        color: #999999;
+                    } 
                     a{
                         color: #FFF;
-                        font-size: 26px;
+                        font-size: 20px; 
+
+                    }
+
                 }
-                
-                
             }
         }
     }
@@ -49,40 +47,46 @@
     padding: 83px 0 80px 0;
     background: #F2F2F2;
     .footer_container{
-        
+
         .footer-all{
             display: flex;
-            gap: 0 130px;
-        }
-        .footer-item-all{
-            display: flex;
-            justify-content: space-between;
-            gap: 0 150px ;
-            margin-bottom: 130px;
-            ul{
-                h5{
-                    margin-bottom: 9px;
-                    font-weight: 600;
-                }
-                a{
-                    color: #0A0A0A;
-                }
+            justify-content: space-around;
+            h4{
+                font-size: 28px;
             }
-            .footer-contact{
+            .footer-item-all{
                 display: flex;
-                flex-direction: column;
-                li{
-                    &:nth-child(2) {
-                        margin-bottom: 9px;
+                gap: 0 60px ;
+                margin-bottom: 130px;
+                ul{
+                    h5{
+                        margin-bottom: 5px;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                    a{
+                        color: #0A0A0A;
+                        font-size: 20px;
+                        font-weight: 500;
                     }
                 }
+                .footer-contact{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        &:nth-child(2) {
+                            margin-bottom: 1px;
+                        }
+                    }
+                }
+    
             }
-
         }
 
     }
     .footer-copyright{
         text-align: center;
+        font-size: 15px;
         position: relative;
     }
     .footer-copyright::before{
