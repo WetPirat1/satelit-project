@@ -19,28 +19,29 @@
     background: #363636;
     
     .header_container{
-        padding: 20px 20px;
+        padding: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 1400px;
         a{
             color: #FFF;
         }
         .nav{
             display: flex;
-            align-items: center;
             ul{
-                align-items: center;
                 display: flex;
                 gap: 0 85px;
                 li{
                     .active {
                         color: #999999;
-                    }
+                    } 
                     a{
                         color: #FFF;
-                        font-size: 26px;    
+                        font-size: 20px; 
+
                     }
+
                 }
             }
         }

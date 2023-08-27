@@ -20,20 +20,19 @@
   background: #363636;
 }
 .header .header_container {
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
 }
 .header .header_container a {
   color: #FFF;
 }
 .header .header_container .nav {
   display: flex;
-  align-items: center;
 }
 .header .header_container .nav ul {
-  align-items: center;
   display: flex;
   gap: 0 85px;
 }
@@ -42,7 +41,7 @@
 }
 .header .header_container .nav ul li a {
   color: #FFF;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 main .container h2 {
