@@ -36,6 +36,9 @@
 .header .header_container .nav ul .nav-item-ukr {
   color: #999999;
 }
+.header .header_container .nav ul li .nav-item-ukr {
+  color: #999999;
+}
 .header .header_container .nav ul li .active-blog {
   color: #999999;
 }
@@ -110,8 +113,9 @@
 }
 .article-headline h1 {
   font-weight: 600;
-  font-size: 64px;
+  font-size: 50px;
   text-shadow: 2px 2px 4px #0A0A0A;
+  width: 100%;
   color: #ffffff;
   text-align: center;
   z-index: 2;
