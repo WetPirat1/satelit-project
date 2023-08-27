@@ -43,6 +43,7 @@
 }
 
 .project-about {
+    margin-bottom: 3em;
     .project-about_container {
         h1{
             color: #000;
@@ -84,6 +85,115 @@
         .project-text{
             max-width: 769px;
         }
+    }
+}
+
+
+.project-gallery {
+    max-width: 1200px;
+    padding: 0px 25px;
+    
+    margin: 0 auto;
+
+    margin-bottom: 5em;
+    position: relative;
+    i {
+        height: 40px;
+        width: 40px;
+        background-color: #c4c4c4;
+        color: #0A0A0A;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        border-radius: 50%;
+        transition-duration: 0.3s;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    i:hover {
+        background-color: rgb(124, 124, 124);
+        cursor: pointer;
+    }
+
+    i:first-child {
+        left: -260px;
+    }
+    i:last-child {
+        right: -260px;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        gap: 20px;
+        li {
+            img {
+
+                max-width: 523px;
+                height: 394px;
+
+                border-radius: 5px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+@media (max-width: 1750px) {
+    .project-gallery {
+         max-width: 1200px;
+    padding: 0px 25px;
+    
+    margin: 0 auto;
+
+    margin-bottom: 5em;
+    position: relative;
+    i {
+        height: 40px;
+        width: 40px;
+        background-color: #c4c4c4;
+        color: #0A0A0A;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        border-radius: 50%;
+        transition-duration: 0.3s;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    i:hover {
+        background-color: rgb(124, 124, 124);
+        cursor: pointer;
+    }
+
+    i:first-child {
+        left: -40px;
+    }
+    i:last-child {
+        right: -40px;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        gap: 2em;
+        li {
+            img {
+
+                max-width: 350px;
+                height: 294px;
+
+                border-radius: 5px;
+                object-fit: cover;
+            }
+        }
+    }
     }
 }
 

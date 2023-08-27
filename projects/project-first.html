@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Проєкт забезпечення</title>
     <!-- styles -->
     <link rel="stylesheet" href="/responsive.css">
     <link rel="stylesheet" href="/projects/styles-projects/project-first.css">
@@ -12,6 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    
 </head>
 
 <body>
@@ -55,14 +59,28 @@
                 </ul>
 
             </div>
-
+            <h4>Галерея проєкту</h4>
         </div>
 
     </section>
 
-    <section class="project-gallery" >
-        <h2></h2>
-    </section>
+
+    <div class="project-gallery">
+        <div class="project-gallery_container">
+        
+            <div class="carousel-container">
+                <i class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li><img src="/projects/images/firstproject/1img.jpg" alt=""></li>
+                    <li><img src="/projects/images/firstproject/2img.jpg" alt=""></li>
+                    <li><img src="/projects/images/firstproject/3img.jpg" alt=""></li>
+                </ul>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- photos -->
 
     <footer class="footer">
         <div class="footer_container">
@@ -110,5 +128,6 @@
             <p class="footer-copyright" >©Copyright. All rights reserved.</p>
         </div>
     </footer>
+    <script src="./script/script.js"></script>
 </body>
 </html>
