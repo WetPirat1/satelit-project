@@ -117,26 +117,34 @@
     margin: 0 auto;
 }
 
-.article-headline{
+.article-headline {
     background: linear-gradient(269deg, #E800A7 0%, #078EAB 100%);
     padding: 162px 0;
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
-    h1{
-        position: relative;
-        font-size: 64px;
-        color: #fff;
-        text-align: center;
-        z-index: 2;
-    }
-    img{
-        position: absolute;
-        top: 141px;
-        left: 610px;
-        z-index: 1;
-    }
+.article-headline h1 {
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.article-headline img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 290px;
+    height: 290px;
 }
 
 .quest-title{

@@ -36,6 +36,9 @@
 .header .header_container .nav ul .nav-item-ukr {
   color: #999999;
 }
+.header .header_container .nav ul li .nav-item-ukr {
+  color: #999999;
+}
 .header .header_container .nav ul li .active-blog {
   color: #999999;
 }
@@ -105,19 +108,28 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
-}
-.article-headline h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+}
+
+.article-headline h1 {
   font-size: 64px;
   color: #fff;
   text-align: center;
+  font-weight: 600;
   z-index: 2;
 }
+
 .article-headline img {
   position: absolute;
-  top: 141px;
-  left: 610px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
+  width: 290px;
+  height: 290px;
 }
 
 .quest-title {

@@ -103,7 +103,6 @@
   background: linear-gradient(270deg, #71A6F6 0%, #00D885 100%);
 }
 .article-headline h1 {
-  text-shadow: 2px 2px 4px #0A0A0A;
   font-weight: 600;
   font-size: 64px;
   color: #ffffff;
