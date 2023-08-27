@@ -30,6 +30,9 @@
   display: flex;
   gap: 0 85px;
 }
+.header .header_container .nav ul li .nav-item-ukr {
+  color: #999999;
+}
 .header .header_container .nav ul li .active-blog {
   color: #999999;
 }
@@ -93,16 +96,24 @@
 }
 
 .article-headline {
-  background-image: url(/blog/articles/article-5/images/article-bg.jpg);
+  background: linear-gradient(269deg, #E800A7 0%, #078EAB 100%);
   padding: 162px 0;
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
 }
 .article-headline h1 {
+  position: relative;
   font-size: 64px;
-  color: #FF5F00;
+  color: #fff;
   text-align: center;
+  z-index: 2;
+}
+.article-headline img {
+  position: absolute;
+  top: 141px;
+  left: 610px;
+  z-index: 1;
 }
 
 .quest-title {
