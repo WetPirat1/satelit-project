@@ -17,24 +17,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 1400px;
         a{
             color: #FFF;
         }
         .nav{
             display: flex;
-            align-items: center;
             ul{
-                align-items: center;
                 display: flex;
                 gap: 0 85px;
-                
                 li{
                     .active {
                         color: #999999;
                     } 
                     a{
                         color: #FFF;
-                        font-size: 26px; 
+                        font-size: 20px; 
 
                     }
 
@@ -54,17 +52,17 @@
         flex-direction: column;
         display: flex;
         h1{
-            padding: 321px 0 60px 0;
+            padding: 221px 0 60px 0;
             color: #FFF;
-            font-size: 64px;
+            font-size: 53px;
             font-weight: 600;
         }
         p{
             color: #FFF;
-            font-size: 32px;
+            font-size: 28px;
             font-weight: 400;
-            margin-bottom: 94px;
-            max-width: 1555px;
+            margin-bottom: 80px;
+            max-width: 1300px;
         }
         .hero-btn{
             padding: 21px 71px;
@@ -87,37 +85,36 @@
     .mission-section_container{
         h2{
             color: #000;
-            font-size: 64px;
+            font-size: 55px;
             font-weight: 600;
             text-align: center;
-            padding: 90px 0 189px 0;
+            padding: 75px 0 130px 0;
         }
         .mission-all{
             align-items: center;
             display: flex;
-            padding-bottom: 200px;
+            padding-bottom: 150px;
             .mission-left{
+                max-width: 50%;
                 h4{
                     font-size: 40px;
                     color: #0A0A0A;
                     margin-bottom: 45px;
+                    max-width: 800px;
                 }
                 p{
                     font-size: 26px;
                     color: #282828;
-                }
-            }
+                }            }
             .mission-right{
                 display: flex;
                 .mission-img1{
-                    background-size: cover;
-                    max-width: 560px;
-                    max-height: 400px;
+                    max-width: 60%;
+                    height: auto;
                 }
-
                 .mission-img2{
-                    max-width: 300px;
-                    max-height: 380px;
+                    max-width: 30%; 
+                    height: auto;
                 }
         
             }
@@ -134,37 +131,40 @@
 
         h2{
             color: #000;
-            font-size: 64px;
+            font-size: 55px;
             font-weight: 600;
-            margin: 90px 0 100px 0;
+            margin: 65px 0 ;
         }
 
         ul{
             display: flex;
             justify-content: space-between;
             margin-bottom: 0.5em;
+            gap: 0 10px;
+                li{
+
+                    img{
+                        max-width: 80%;
+                        height: auto;
+                        padding-bottom: 26px;
+                    }
+                    h4{
+                        color: #FF5F00;
+                        font-size: 30px;
+                        font-weight: 600;
+                        max-width: 752px;
+                    }
+                    p{
+                        color: #5C5C5C;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin-top: 27px;
+                        padding-bottom: 53px;
+                        max-width: 752px;
+                    }
+                }
+            }   
         }
-        li{
-            img{
-                max-width: 650px;
-                max-height: 523px;
-                padding-bottom: 26px;
-            }
-            h4{
-                color: #FF5F00;
-                font-size: 30px;
-                font-weight: 600;
-            }
-            p{
-                color: #5C5C5C;
-                font-size: 30px;
-                font-weight: 500;
-                margin-top: 27px;
-                padding-bottom: 53px;
-                max-width: 752px;
-            }
-        }
-        }   
         .projects-link{
             
             color: #282828;
@@ -192,10 +192,10 @@
     background-repeat: no-repeat;
     .donate-section_container{
         h2{
-            padding: 90px 0 171px 0;
+            padding: 75px 0;
             text-align: center;
             width: 600;
-            font-size: 64px;
+            font-size: 55px;
             color: #fff;
         }
         .donate-all{
@@ -208,18 +208,18 @@
                 min-height: 100%;
                 display: flex;
                 flex-direction: column;
-                gap: 140px 0;
+                gap: 100px 0;
                 h3{
                     color: #FFF;
-                    font-size: 48px;
+                    font-size: 35px;
                     font-weight: 600;
                 }
                 p{
                     color: #FFF;
-                    font-size: 32px;
+                    font-size: 28px;
                     max-width: 729px;
                     flex: 1 1 auto;
-                    
+                    height: 80px;
                 }
                 .donate-btn{
                     margin-bottom: 20px;
@@ -255,13 +255,15 @@
                 padding-top: 3em;
                 text-align: center;
                 margin: 0 auto;
-                justify-content: center;
-                gap: 10em;
+                justify-content: space-around;
                 li{
                     align-items: center;
                     width: 250px;
                     img{
-                        margin-bottom: 34px;               }
+                        margin-bottom: 34px;
+                        max-width: 230px;
+                        max-height: 230px;               
+                    }
                     p{
                         margin-top: 10px;
                         margin-bottom: 27px;
@@ -281,7 +283,7 @@
         h2{
             text-align: center;
             color: #000;
-            font-size: 64px;
+            font-size: 55px;
             font-weight: 600;
             margin: 100px 0 76px 0;
         }
@@ -295,16 +297,15 @@
                 text-align: center;
                 max-width: 33.3%;
                 li{
-                    h3 {
-                        font-size: 35px;
-                    }
                     p{
                         color: #FF5F00;
                         text-align: center;
                         font-weight: 600;
+                        font-size: 27px;
                     }
                     img{
-                        max-width: 540px;
+                        max-width: 350px;
+                        max-height: 260px;
                         margin-bottom: 8px;
                     }
                 }
@@ -333,38 +334,43 @@
         
         .footer-all{
             display: flex;
-            gap: 0 130px;
-        }
-        .footer-item-all{
-            display: flex;
-            justify-content: space-between;
-            gap: 0 150px ;
-            margin-bottom: 130px;
-            ul{
-                h5{
-                    margin-bottom: 9px;
-                    font-weight: 600;
-                }
-                a{
-                    color: #0A0A0A;
-                }
+            justify-content: space-around;
+            h4{
+                font-size: 28px;
             }
-            .footer-contact{
+            .footer-item-all{
                 display: flex;
-                flex-direction: column;
-                li{
-                    &:nth-child(2) {
-                        margin-bottom: 9px;
+                gap: 0 60px ;
+                margin-bottom: 130px;
+                ul{
+                    h5{
+                        margin-bottom: 5px;
+                        font-weight: 700;
+                        font-size: 25px;
+                    }
+                    a{
+                        color: #0A0A0A;
+                        font-size: 20px;
+                        font-weight: 500;
                     }
                 }
+                .footer-contact{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        &:nth-child(2) {
+                            margin-bottom: 1px;
+                        }
+                    }
+                }
+    
             }
-
         }
 
     }
     .footer-copyright{
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
         position: relative;
     }
     .footer-copyright::before{

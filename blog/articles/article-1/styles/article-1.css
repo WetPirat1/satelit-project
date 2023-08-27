@@ -14,29 +14,28 @@
   background: #363636;
 }
 .header .header_container {
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
 }
 .header .header_container a {
-  color: #ffffff;
-}
-.header .header_container nav {
-  display: flex;
-  align-items: center;
-}
-.header .header_container nav ul {
-  align-items: center;
-  display: flex;
-  gap: 85px;
-}
-.header .header_container nav li .active {
-  color: #999;
-}
-.header .header_container nav li a {
   color: #FFF;
-  font-size: 26px;
+}
+.header .header_container .nav {
+  display: flex;
+}
+.header .header_container .nav ul {
+  display: flex;
+  gap: 0 85px;
+}
+.header .header_container .nav ul li .active {
+  color: #999999;
+}
+.header .header_container .nav ul li a {
+  color: #FFF;
+  font-size: 20px;
 }
 
 .footer {
@@ -45,30 +44,36 @@
 }
 .footer .footer_container .footer-all {
   display: flex;
-  gap: 0 130px;
+  justify-content: space-around;
 }
-.footer .footer_container .footer-item-all {
+.footer .footer_container .footer-all h4 {
+  font-size: 28px;
+}
+.footer .footer_container .footer-all .footer-item-all {
   display: flex;
-  justify-content: space-between;
-  gap: 0 150px;
+  gap: 0 60px;
   margin-bottom: 130px;
 }
-.footer .footer_container .footer-item-all ul h5 {
-  margin-bottom: 9px;
-  font-weight: 600;
+.footer .footer_container .footer-all .footer-item-all ul h5 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 25px;
 }
-.footer .footer_container .footer-item-all ul a {
+.footer .footer_container .footer-all .footer-item-all ul a {
   color: #0A0A0A;
+  font-size: 20px;
+  font-weight: 500;
 }
-.footer .footer_container .footer-item-all .footer-contact {
+.footer .footer_container .footer-all .footer-item-all .footer-contact {
   display: flex;
   flex-direction: column;
 }
-.footer .footer_container .footer-item-all .footer-contact li:nth-child(2) {
-  margin-bottom: 9px;
+.footer .footer_container .footer-all .footer-item-all .footer-contact li:nth-child(2) {
+  margin-bottom: 1px;
 }
 .footer .footer-copyright {
   text-align: center;
+  font-size: 15px;
   position: relative;
 }
 .footer .footer-copyright::before {
@@ -89,16 +94,32 @@
 }
 
 .article-headline {
-  background-image: url(/blog/articles/article-5/images/article-bg.jpg);
+  position: relative;
   padding: 162px 0;
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
+  background: linear-gradient(270deg, #71A6F6 0%, #00D885 100%);
 }
 .article-headline h1 {
+  font-weight: 600;
   font-size: 64px;
-  color: #FF5F00;
+  text-shadow: 2px 2px 4px #0A0A0A;
+  color: #ffffff;
   text-align: center;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.article-headline img {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .quest-title {

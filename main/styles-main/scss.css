@@ -18,16 +18,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
 }
 .header .header_container a {
   color: #FFF;
 }
 .header .header_container .nav {
   display: flex;
-  align-items: center;
 }
 .header .header_container .nav ul {
-  align-items: center;
   display: flex;
   gap: 0 85px;
 }
@@ -36,7 +35,7 @@
 }
 .header .header_container .nav ul li a {
   color: #FFF;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .hero-section {
@@ -51,17 +50,17 @@
   display: flex;
 }
 .hero-section .hero-section_container h1 {
-  padding: 321px 0 60px 0;
+  padding: 221px 0 60px 0;
   color: #FFF;
-  font-size: 64px;
+  font-size: 53px;
   font-weight: 600;
 }
 .hero-section .hero-section_container p {
   color: #FFF;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
-  margin-bottom: 94px;
-  max-width: 1555px;
+  margin-bottom: 80px;
+  max-width: 1300px;
 }
 .hero-section .hero-section_container .hero-btn {
   padding: 21px 71px;
@@ -82,20 +81,24 @@
 }
 .mission-section .mission-section_container h2 {
   color: #000;
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 600;
   text-align: center;
-  padding: 90px 0 189px 0;
+  padding: 75px 0 130px 0;
 }
 .mission-section .mission-section_container .mission-all {
   align-items: center;
   display: flex;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
+}
+.mission-section .mission-section_container .mission-all .mission-left {
+  max-width: 50%;
 }
 .mission-section .mission-section_container .mission-all .mission-left h4 {
   font-size: 40px;
   color: #0A0A0A;
   margin-bottom: 45px;
+  max-width: 800px;
 }
 .mission-section .mission-section_container .mission-all .mission-left p {
   font-size: 26px;
@@ -105,13 +108,12 @@
   display: flex;
 }
 .mission-section .mission-section_container .mission-all .mission-right .mission-img1 {
-  background-size: cover;
-  max-width: 560px;
-  max-height: 400px;
+  max-width: 60%;
+  height: auto;
 }
 .mission-section .mission-section_container .mission-all .mission-right .mission-img2 {
-  max-width: 300px;
-  max-height: 380px;
+  max-width: 30%;
+  height: auto;
 }
 
 .projects-section {
@@ -123,26 +125,28 @@
 }
 .projects-section .projects-section_container h2 {
   color: #000;
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 600;
-  margin: 90px 0 100px 0;
+  margin: 65px 0;
 }
 .projects-section .projects-section_container ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5em;
+  gap: 0 10px;
 }
-.projects-section .projects-section_container li img {
-  max-width: 650px;
-  max-height: 523px;
+.projects-section .projects-section_container ul li img {
+  max-width: 80%;
+  height: auto;
   padding-bottom: 26px;
 }
-.projects-section .projects-section_container li h4 {
+.projects-section .projects-section_container ul li h4 {
   color: #FF5F00;
   font-size: 30px;
   font-weight: 600;
+  max-width: 752px;
 }
-.projects-section .projects-section_container li p {
+.projects-section .projects-section_container ul li p {
   color: #5C5C5C;
   font-size: 30px;
   font-weight: 500;
@@ -173,10 +177,10 @@
   background-repeat: no-repeat;
 }
 .donate-section .donate-section_container h2 {
-  padding: 90px 0 171px 0;
+  padding: 75px 0;
   text-align: center;
   width: 600;
-  font-size: 64px;
+  font-size: 55px;
   color: #fff;
 }
 .donate-section .donate-section_container .donate-all {
@@ -190,18 +194,19 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 140px 0;
+  gap: 100px 0;
 }
 .donate-section .donate-section_container .donate-all .donate-right h3 {
   color: #FFF;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 600;
 }
 .donate-section .donate-section_container .donate-all .donate-right p {
   color: #FFF;
-  font-size: 32px;
+  font-size: 28px;
   max-width: 729px;
   flex: 1 1 auto;
+  height: 80px;
 }
 .donate-section .donate-section_container .donate-all .donate-right .donate-btn {
   margin-bottom: 20px;
@@ -230,8 +235,7 @@
   padding-top: 3em;
   text-align: center;
   margin: 0 auto;
-  justify-content: center;
-  gap: 10em;
+  justify-content: space-around;
 }
 .team-section .team-section_container ul li {
   align-items: center;
@@ -239,6 +243,8 @@
 }
 .team-section .team-section_container ul li img {
   margin-bottom: 34px;
+  max-width: 230px;
+  max-height: 230px;
 }
 .team-section .team-section_container ul li p {
   margin-top: 10px;
@@ -255,7 +261,7 @@
 .blog-section .blog-section_container h2 {
   text-align: center;
   color: #000;
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 600;
   margin: 100px 0 76px 0;
 }
@@ -268,16 +274,15 @@
   text-align: center;
   max-width: 33.3%;
 }
-.blog-section .blog-section_container .blog-all ul li h3 {
-  font-size: 35px;
-}
 .blog-section .blog-section_container .blog-all ul li p {
   color: #FF5F00;
   text-align: center;
   font-weight: 600;
+  font-size: 27px;
 }
 .blog-section .blog-section_container .blog-all ul li img {
-  max-width: 540px;
+  max-width: 350px;
+  max-height: 260px;
   margin-bottom: 8px;
 }
 .blog-section .blog-section_container .blog-link {
@@ -301,31 +306,36 @@
 }
 .footer .footer_container .footer-all {
   display: flex;
-  gap: 0 130px;
+  justify-content: space-around;
 }
-.footer .footer_container .footer-item-all {
+.footer .footer_container .footer-all h4 {
+  font-size: 28px;
+}
+.footer .footer_container .footer-all .footer-item-all {
   display: flex;
-  justify-content: space-between;
-  gap: 0 150px;
+  gap: 0 60px;
   margin-bottom: 130px;
 }
-.footer .footer_container .footer-item-all ul h5 {
-  margin-bottom: 9px;
-  font-weight: 600;
+.footer .footer_container .footer-all .footer-item-all ul h5 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 25px;
 }
-.footer .footer_container .footer-item-all ul a {
+.footer .footer_container .footer-all .footer-item-all ul a {
   color: #0A0A0A;
+  font-size: 20px;
+  font-weight: 500;
 }
-.footer .footer_container .footer-item-all .footer-contact {
+.footer .footer_container .footer-all .footer-item-all .footer-contact {
   display: flex;
   flex-direction: column;
 }
-.footer .footer_container .footer-item-all .footer-contact li:nth-child(2) {
-  margin-bottom: 9px;
+.footer .footer_container .footer-all .footer-item-all .footer-contact li:nth-child(2) {
+  margin-bottom: 1px;
 }
 .footer .footer-copyright {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
 }
 .footer .footer-copyright::before {
