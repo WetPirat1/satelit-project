@@ -33,6 +33,9 @@
 .header .header_container .nav ul a:hover {
   color: #999999;
 }
+.header .header_container .nav ul li .nav-item-ukr {
+  color: #999999;
+}
 .header .header_container .nav ul li .active-blog {
   color: #999999;
 }
