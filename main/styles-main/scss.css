@@ -39,6 +39,7 @@
   transition: ease-in-out 0.3s;
 }
 .header .header_container .nav ul li a:hover {
+  cursor: pointer;
   color: #999999;
 }
 
@@ -223,7 +224,7 @@
 .donate-section .donate-section_container .donate-all .donate-right a {
   color: #fff;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 15px 60px;
   border-radius: 10px;
   background: #FF5F00;

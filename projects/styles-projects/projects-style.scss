@@ -10,6 +10,9 @@
     font-weight: 400;
 }
 .header{
+    a:hover{
+        color: #9999;
+    }
     background: #363636;
     
     .header_container{
@@ -20,24 +23,32 @@
         max-width: 1400px;
         a{
             color: #FFF;
+            transition-duration: 0.3s;
         }
         .nav{
             display: flex;
             ul{
                 display: flex;
                 gap: 0 85px;
+                
                 li{
-                    .active-project {
-                        color: #999999;
-                    } 
+                    
                     a{
                         color: #FFF;
-                        font-size: 20px; 
-
+                        font-size: 20px;
+                    }
+                    a:hover {
+                        color: #999999;
+                    }
+                    .active {
+                        color:#999999; /* Измените цвет на тот, который вам нужен */
                     }
 
+                    
                 }
+                
             }
+            
         }
     }
 }

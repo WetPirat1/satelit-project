@@ -30,10 +30,17 @@
   display: flex;
   gap: 0 85px;
 }
+.header .header_container .nav ul a:hover {
+  color: #999999;
+}
+.header .header_container .nav ul .nav-item-ukr {
+  color: #999999;
+}
 .header .header_container .nav ul li .active-blog {
   color: #999999;
 }
 .header .header_container .nav ul li a {
+  transition-duration: 0.3s;
   color: #FFF;
   font-size: 20px;
 }

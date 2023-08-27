@@ -30,6 +30,9 @@
         .nav{
             display: flex;
             ul{
+                a:hover{
+                    color: #999999;
+                }
                 display: flex;
                 gap: 0 85px;
                 .nav-item-ukr{
@@ -40,6 +43,7 @@
                         color: #999999;
                     } 
                     a{
+                        transition-duration: 0.3s;
                         color: #FFF;
                         font-size: 20px; 
 

@@ -36,6 +36,7 @@
                         transition: ease-in-out 0.3s ;
                     }
                     a:hover{
+                        cursor: pointer;
                         color: #999999;
                         
                     }
@@ -238,7 +239,7 @@
                 a{
                     color: #fff;
                     font-size: 36px;
-                    font-weight: 600;
+                    font-weight: 400;
                     padding: 15px 60px;
                     border-radius: 10px;
                     background: #FF5F00;
