@@ -1,0 +1,202 @@
+@media (min-width: 3839px) {
+  [class*=_container] {
+    max-width: 2250px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .header .header_container {
+    max-width: 2040px;
+    padding: 40px 20px;
+  }
+  .header .header_container a {
+    font-size: 45px;
+  }
+  .header .header_container .nav ul {
+    gap: 0 100px;
+  }
+  .header .header_container .nav ul li a {
+    font-size: 35px;
+  }
+  .projects-section .projects_container h1 {
+    margin: 100px 0 130px 0;
+    font-size: 50px;
+  }
+  .projects-section .projects_container .project-first, .projects-section .projects_container .project-second {
+    margin-bottom: 100px;
+  }
+  .projects-section .projects_container .project-first ul, .projects-section .projects_container .project-second ul {
+    max-width: 1000px;
+  }
+  .projects-section .projects_container .project-first ul h2, .projects-section .projects_container .project-second ul h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .projects-section .projects_container .project-first ul p, .projects-section .projects_container .project-second ul p {
+    font-size: 40px;
+  }
+  .projects-section .projects_container .project-first ul .projects-link, .projects-section .projects_container .project-second ul .projects-link {
+    font-size: 45px;
+  }
+  .projects-section .projects_container .project-first img, .projects-section .projects_container .project-second img {
+    margin-bottom: 0;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .footer_container .footer-all ul li h4 {
+    font-size: 40px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li h5 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li a {
+    font-size: 40px;
+  }
+  .footer .footer_container p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1440px) {
+  .projects-section .projects_container h1 {
+    margin: 60px 0 80px 0;
+  }
+  .projects-section .projects_container .project-first {
+    padding-bottom: 100px;
+  }
+  .projects-section .projects_container .project-first ul h2, .projects-section .projects_container .project-second ul h2 {
+    font-size: 30px;
+  }
+  .projects-section .projects_container .project-first img, .projects-section .projects_container .project-second img {
+    margin-bottom: 0;
+    max-width: 600px;
+  }
+  .footer {
+    margin-top: 50px;
+    padding: 40px 0;
+  }
+}
+@media (max-width: 1200px) {
+  .projects-section .projects_container .project-first ul, .projects-section .projects_container .project-second ul {
+    max-width: 50%;
+  }
+  .projects-section .projects_container .project-first img, .projects-section .projects_container .project-second img {
+    margin-bottom: 0;
+    max-width: 50%;
+    max-height: 274px;
+  }
+}
+@media (max-width: 1200px) {
+  .header .header_container .nav {
+    display: none;
+  }
+}
+@media (max-width: 854px) {
+  .projects-section .projects_container h1 {
+    text-align: center;
+  }
+  .projects-section .projects_container .project-first, .projects-section .projects_container .project-second {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects-section .projects_container .project-first ul, .projects-section .projects_container .project-second ul {
+    margin-bottom: 50px;
+    max-width: 98%;
+  }
+  .projects-section .projects_container .project-first ul h2, .projects-section .projects_container .project-second ul h2 {
+    font-size: 27px;
+  }
+  .projects-section .projects_container .project-first ul p, .projects-section .projects_container .project-second ul p {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .projects-section .projects_container .project-first ul .projects-link, .projects-section .projects_container .project-second ul .projects-link {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+  .projects-section .projects_container .project-first img, .projects-section .projects_container .project-second img {
+    max-width: 98%;
+    height: auto;
+  }
+  .footer {
+    padding: 40px 0 20px 0;
+  }
+  .footer .footer_container .footer-all h4 {
+    font-size: 15px;
+  }
+  .footer .footer_container .footer-all .footer-item-all {
+    display: block;
+    gap: 0 0;
+    margin-bottom: 50px;
+  }
+  .footer .footer_container .footer-all .footer-item-all .footer-logo-list {
+    max-width: 20%;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul {
+    margin-bottom: 20px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li h5 {
+    font-size: 21px;
+    margin-bottom: 5px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li a {
+    font-size: 19px;
+  }
+}
+@media (max-width: 450px) {
+  .projects-section .projects_container h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .projects-section .projects_container .project-first, .projects-section .projects_container .project-second {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects-section .projects_container .project-first ul, .projects-section .projects_container .project-second ul {
+    margin-bottom: 50px;
+    max-width: 98%;
+  }
+  .projects-section .projects_container .project-first ul h2, .projects-section .projects_container .project-second ul h2 {
+    font-size: 20px;
+  }
+  .projects-section .projects_container .project-first ul p, .projects-section .projects_container .project-second ul p {
+    font-size: 17px;
+    margin-bottom: 50px;
+  }
+  .projects-section .projects_container .project-first ul .projects-link, .projects-section .projects_container .project-second ul .projects-link {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+  .projects-section .projects_container .project-first img, .projects-section .projects_container .project-second img {
+    max-width: 98%;
+    height: auto;
+  }
+  .footer {
+    padding: 40px 0 20px 0;
+  }
+  .footer .footer_container .footer-all h4 {
+    font-size: 15px;
+  }
+  .footer .footer_container .footer-all .footer-item-all {
+    display: block;
+    gap: 0 0;
+    margin-bottom: 50px;
+  }
+  .footer .footer_container .footer-all .footer-item-all .footer-logo-list {
+    max-width: 20%;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul {
+    margin-bottom: 20px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li a {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=projects-adap.css.map */
