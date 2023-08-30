@@ -1,0 +1,453 @@
+@media (min-width: 3839px) {
+  [class*=_container] {
+    min-width: 2200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .header {
+    padding: 50px 0;
+  }
+  .header .header_container a {
+    font-size: 50px;
+  }
+  .header .header_container .nav ul li a {
+    font-size: 45px;
+  }
+  .hero-section .hero-section_container h1 {
+    font-size: 84px;
+  }
+  .hero-section .hero-section_container p {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .hero-section .hero-section_container .hero-btn {
+    padding: 51px 141px;
+    font-size: 50px;
+    border-radius: 20px;
+  }
+  .mission-section {
+    padding: 150px 0;
+  }
+  .mission-section .mission-section_container h2 {
+    padding-top: 160px;
+    font-size: 80px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left h4 {
+    font-size: 60px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left p {
+    font-size: 50px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-right {
+    display: flex;
+    align-items: first baseline;
+  }
+  .mission-section .mission-section_container .mission-all .mission-right .mission-img1 {
+    background-size: cover;
+    min-width: 700px;
+    min-height: 600px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-right .mission-img2 {
+    min-width: 400px;
+    min-height: 500px;
+  }
+  .projects-section {
+    padding: 100px 0;
+  }
+  .projects-section .projects-section_container h2 {
+    font-size: 80px;
+  }
+  .projects-section .projects-section_container .projects-all ul li img {
+    min-width: 900px;
+    min-height: 700px;
+  }
+  .projects-section .projects-section_container .projects-all ul li h4 {
+    font-size: 60px;
+    padding-bottom: 35px;
+  }
+  .projects-section .projects-section_container .projects-all ul li p {
+    font-size: 60px;
+    min-width: 752px;
+    padding-bottom: 170px;
+  }
+  .projects-section .projects-section_container .projects-link {
+    padding: 50px 120px;
+    font-size: 50px;
+  }
+  .donate-section .donate-section_container h2 {
+    font-size: 100px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-left {
+    height: 100%;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right h3 {
+    font-size: 80px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right p {
+    font-size: 60px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right a {
+    font-size: 60px;
+    padding: 30px 90px;
+  }
+  .team-section .team-section_container h2 {
+    font-size: 94px;
+  }
+  .team-section .team-section_container .team-all ul img {
+    margin-bottom: 40px;
+  }
+  .team-section .team-section_container .team-all ul p {
+    font-size: 50px;
+  }
+  .blog-section .blog-section_container h2 {
+    font-size: 90px;
+  }
+  .blog-section .blog-section_container .blog-all ul {
+    max-width: 33.3%;
+  }
+  .blog-section .blog-section_container .blog-all ul li a p {
+    font-size: 50px;
+    margin-bottom: 70px;
+  }
+  .blog-section .blog-section_container .blog-link {
+    padding: 50px 120px;
+    font-size: 40px;
+  }
+  .footer .footer_container .footer-all h4 {
+    font-size: 40px;
+  }
+  .footer .footer_container .footer-all ul ul li h5 {
+    font-size: 40px;
+  }
+  .footer .footer_container .footer-all ul ul li a {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1200px) {
+  .header .header_container .nav ul li img {
+    max-width: 28px;
+    max-height: 28px;
+  }
+  .hero-section .hero-section_container h1 {
+    padding: 150px 0 50px 0;
+    font-size: 45px;
+  }
+  .hero-section .hero-section_container p {
+    font-size: 24px;
+  }
+  .hero-section .hero-section_container .hero-btn {
+    margin-bottom: 150px;
+  }
+  .mission-section .mission-section_container h2 {
+    font-size: 45px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left h4 {
+    font-size: 30px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left p {
+    font-size: 23px;
+  }
+  .projects-section .projects-section_container h2 {
+    font-size: 40px;
+  }
+  .projects-section .projects-section_container ul li a h4 {
+    font-size: 25px;
+  }
+  .projects-section .projects-section_container ul li a p {
+    font-size: 20px;
+  }
+  .projects-section .projects-section_container .projects-link {
+    padding: 15px 50px;
+    font-size: 20px;
+  }
+  .donate-section {
+    padding-bottom: 100px;
+  }
+  .donate-section .donate-section_container h2 {
+    font-size: 45px;
+    padding: 55px 0;
+  }
+  .donate-section .donate-section_container .donate-all {
+    max-height: 500px;
+    justify-content: space-around;
+  }
+  .donate-section .donate-section_container .donate-all .donate-left img {
+    max-height: 500px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right h3 {
+    font-size: 30px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right p {
+    font-size: 24px;
+    max-width: 75%;
+  }
+  .team-section .team-section_container h2 {
+    font-size: 45px;
+  }
+  .team-section .team-section_container ul li img {
+    max-width: 190px;
+    max-height: 190px;
+  }
+  .team-section .team-section_container ul li p {
+    font-size: 20px;
+  }
+  .blog-section .blog-section_container h2 {
+    font-size: 45px;
+  }
+  .blog-section .blog-section_container .blog-all ul li p {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  .blog-section .blog-section_container .blog-all ul li img {
+    max-width: 310px;
+    max-height: 220px;
+  }
+  .blog-section .blog-section_container .blog-link {
+    padding: 15px 45px;
+    font-size: 23px;
+  }
+}
+@media (max-width: 1152px) {
+  .header .header_container a {
+    font-size: 18px;
+  }
+  .header .header_container .nav ul li a {
+    font-size: 18px;
+  }
+  .hero-section .hero-section_container h1 {
+    padding: 150px 0 50px 0;
+    font-size: 40px;
+  }
+  .hero-section .hero-section_container p {
+    font-size: 22px;
+  }
+  .hero-section .hero-section_container .hero-btn {
+    margin-bottom: 100px;
+    padding: 17px 55px;
+  }
+}
+@media (max-width: 960px) {
+  .header .header_container a {
+    font-size: 28px;
+  }
+  .header .header_container .nav ul {
+    gap: 0 40px;
+  }
+  .header .header_container .nav ul li a {
+    font-size: 18px;
+  }
+  .mission-section .mission-section_container h2 {
+    font-size: 35px;
+    padding: 63px 0 93px 0;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left h4 {
+    font-size: 26px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left p {
+    font-size: 22px;
+  }
+  .projects-section .projects-section_container h2 {
+    font-size: 30px;
+  }
+  .projects-section .projects-section_container ul li a h4 {
+    font-size: 20px;
+  }
+  .projects-section .projects-section_container ul li a p {
+    font-size: 17px;
+  }
+  .projects-section .projects-section_container .projects-link {
+    padding: 15px 50px;
+    font-size: 20px;
+  }
+  .donate-section {
+    padding-bottom: 80px;
+  }
+  .donate-section .donate-section_container h2 {
+    font-size: 30px;
+    padding: 50px 0;
+  }
+  .donate-section .donate-section_container .donate-all {
+    max-height: 410px;
+    justify-content: space-around;
+  }
+  .donate-section .donate-section_container .donate-all .donate-left img {
+    max-height: 410px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right h3 {
+    font-size: 26px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right p {
+    font-size: 22px;
+    max-width: 75%;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right .donate-btn a {
+    padding: 10px 45px;
+    font-size: 26px;
+  }
+  .team-section .team-section_container h2 {
+    font-size: 35px;
+  }
+  .team-section .team-section_container ul li h3 {
+    font-size: 28px;
+  }
+  .team-section .team-section_container ul li img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .team-section .team-section_container ul li p {
+    font-size: 20px;
+  }
+  .blog-section .blog-section_container h2 {
+    font-size: 35px;
+  }
+  .blog-section .blog-section_container .blog-all ul li p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .blog-section .blog-section_container .blog-all ul li img {
+    max-width: 270px;
+    max-height: 180px;
+  }
+  .blog-section .blog-section_container .blog-link {
+    padding: 15px 45px;
+    font-size: 20px;
+  }
+  .footer .footer_container .blog-all ul li h4 {
+    font-size: 20px;
+  }
+  .footer .footer_container .blog-all .footer-item-all ul li h5 {
+    font-size: 20px;
+  }
+  .footer .footer_container .blog-all .footer-item-all ul li a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .header .header_container .nav {
+    display: none;
+  }
+  .hero-section .hero-section_container h1 {
+    padding: 100px 0 50px 0;
+    font-size: 25px;
+  }
+  .hero-section .hero-section_container p {
+    font-size: 20px;
+  }
+  .hero-section .hero-section_container .hero-btn {
+    margin-bottom: 100px;
+  }
+  .mission-section .mission-section_container h2 {
+    font-size: 25px;
+    padding: 63px 0 93px 0;
+  }
+  .mission-section .mission-section_container .mission-all {
+    display: block;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left {
+    max-width: 100%;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left h4 {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .mission-section .mission-section_container .mission-all .mission-left p {
+    font-size: 20px;
+  }
+  .mission-section .mission-section_container .mission-all .mission-right {
+    display: none;
+  }
+  .donate-section {
+    padding-bottom: 50px;
+  }
+  .donate-section .donate-section_container h2 {
+    font-size: 25px;
+    padding: 40px 0;
+  }
+  .donate-section .donate-section_container .donate-all {
+    height: 300px;
+    justify-content: space-around;
+  }
+  .donate-section .donate-section_container .donate-all .donate-left {
+    max-height: 500px;
+    margin-right: 10px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-left img {
+    max-width: 200px;
+    height: 230px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right {
+    gap: 10px 0;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right h3 {
+    font-size: 18px;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right p {
+    font-size: 15px;
+    max-width: 75%;
+  }
+  .donate-section .donate-section_container .donate-all .donate-right .donate-btn a {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+  .team-section .team-section_container ul li h3 {
+    font-size: 17px;
+  }
+  .team-section .team-section_container ul li img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+  .team-section .team-section_container ul li p {
+    font-size: 15px;
+  }
+  .blog-section .blog-section_container h2 {
+    font-size: 35px;
+    margin: 100px 0 50px;
+  }
+  .blog-section .blog-section_container .blog-all {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-section .blog-section_container .blog-all ul {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-section .blog-section_container .blog-all ul li {
+    margin-bottom: 20px;
+  }
+  .blog-section .blog-section_container .blog-all ul li p {
+    font-size: 22px;
+  }
+  .blog-section .blog-section_container .blog-all ul li img {
+    max-width: 280px;
+    max-height: 180px;
+  }
+  .footer {
+    padding: 40px 0 20px 0;
+  }
+  .footer .footer_container .footer-all h4 {
+    font-size: 15px;
+  }
+  .footer .footer_container .footer-all .footer-item-all {
+    display: block;
+    gap: 0 0;
+    margin-bottom: 50px;
+  }
+  .footer .footer_container .footer-all .footer-item-all .footer-logo-list {
+    max-width: 20%;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul {
+    margin-bottom: 20px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li h5 {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .footer .footer_container .footer-all .footer-item-all ul li a {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=sccs-adaptive-styles.css.map */

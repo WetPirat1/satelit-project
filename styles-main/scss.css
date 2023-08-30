@@ -47,7 +47,7 @@
 }
 
 .hero-section {
-  background-image: url(/main/images/hero-bg.jpg);
+  background-image: url(/images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -178,7 +178,7 @@
 }
 
 .donate-section {
-  background-image: url(/main/images/111.jpg);
+  background-image: url(/images/111.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 180px;
