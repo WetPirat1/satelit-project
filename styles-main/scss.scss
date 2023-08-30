@@ -11,7 +11,12 @@
 }
 .header{
     background: #363636;
-
+    .logo{
+        img{
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
     .header_container{
         padding: 20px;
         display: flex;
@@ -350,6 +355,14 @@
         .footer-all{
             display: flex;
             justify-content: space-around;
+            .footer-logo-list{
+                img{
+                    max-width: 120px;
+                    max-height: 120px;
+                    margin-bottom: 10px;
+                }
+        }
+            }
             h4{
                 font-size: 28px;
             }
@@ -382,7 +395,7 @@
             }
         }
 
-    }
+    
     .footer-copyright{
         text-align: center;
         font-size: 15px;

@@ -1,0 +1,93 @@
+@media (max-width: 1400px){
+    main{
+        .container{
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        ul{
+            li{
+
+                img{
+                        max-width: 50%;
+                        height: 80%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1000px){
+    .header{
+        .header_container{
+            .nav{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 960px){
+    main{
+        .container{
+            h2{
+                margin-top: 40px;
+                text-align: center;
+            }
+            ul{
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    .txt{
+                        width: 98%;
+                        margin: 0 0 50px 0;
+                        p{
+                            margin-top: 15px;
+                            margin: 15px 0 40px 0;
+                        }
+                    }
+                    img{
+                        width: 100%;
+                        max-width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        padding: 40px 0 20px 0;
+        .footer_container{
+            .footer-all{
+                
+                h4{
+                    font-size: 15px;
+                }
+                .footer-item-all{
+                    display: block;
+                    gap: 0 0;
+                    margin-bottom: 50px;
+                    .footer-logo-list{
+                        max-width: 20%;
+                    }
+                    ul{
+                        margin-bottom: 20px;
+                        li{
+
+                            h5{
+                                font-size: 20px;
+                                margin-bottom: 5px;
+                            }
+                            a{
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

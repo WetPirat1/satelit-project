@@ -12,7 +12,12 @@
 
 .header{
     background: #363636;
-    
+    .logo{
+        img{
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
     .header_container{
         padding: 20px;
         display: flex;
@@ -63,6 +68,13 @@
             h4{
                 font-size: 28px;
             }
+
+            img{
+                max-width: 120px;
+                max-height: 120px;
+                margin-bottom: 10px;
+            }
+            
             .footer-item-all{
                 display: flex;
                 gap: 0 60px ;

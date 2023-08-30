@@ -19,6 +19,10 @@
 .header {
   background: #363636;
 }
+.header .logo img {
+  max-width: 100px;
+  max-height: 100px;
+}
 .header .header_container {
   padding: 20px;
   display: flex;
@@ -122,6 +126,11 @@ main .container ul li img {
 }
 .footer .footer_container .footer-all h4 {
   font-size: 28px;
+}
+.footer .footer_container .footer-all img {
+  max-width: 120px;
+  max-height: 120px;
+  margin-bottom: 10px;
 }
 .footer .footer_container .footer-all .footer-item-all {
   display: flex;
